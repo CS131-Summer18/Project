@@ -1,0 +1,40 @@
+**Start**
+-File
+-New
+-Dynamic Web Project
+-> Enter Project Name
+-> Target runtime -> set it to 'Apache Tomcat v7.0'
+-> Configuration -> set it to 'Default Configuration for Apache Tomcat v7.0'
+-Next
+-Next
+-Finish
+
+** Creating Java Servlet **
+-> Right click Java Resources
+-New
+-Servlet
+-> Java Package -> name it 'GUI' and Class Nam -> 'HelloWorld'
+-Next
+-Next
+*Note* - at this point you can select what you can do with the servlet but for now we just keep it default
+-Finish
+
+
+*** Creating HTML ***
+-Right Click on the WebContent
+-New
+-HTML
+-> Filename 'HelloWorld.html'-Next
+*NOTE* you are now given the option to select which type of file you want
+-Finish
+
+*** Creating JSP ***
+-Right Click on the WebContent
+-New
+-JSP
+-> Filename 'HelloWorld.jsp'
+-Next
+*NOTE* you are now given the option to select which type of file you want
+-Finish
+
+JSP allows you to enter java code in the html vs just basic html
