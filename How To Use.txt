@@ -1,0 +1,10 @@
+git config user.name "UserName in quotes"
+git config user.email email.com
+
+git clone pasteurl
+
+
+git add Demo.txt
+git status
+git commit -m "Comment" Demo.txt
+git push -u origin master
